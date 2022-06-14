@@ -6,4 +6,4 @@ if __name__ =="__main__":
     for line in sys.stdin:
         for word in line.split():
             sys.stdout.write("{}\t1\n".format(word))
-cat /tmp/wordcount/input/text*.txt | python3 mapper.py | head            
+cat /tmp/wordcount/input/credit.csv | python3 mapper.py | head            
