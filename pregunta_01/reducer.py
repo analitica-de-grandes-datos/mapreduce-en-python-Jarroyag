@@ -20,5 +20,5 @@ if __name__ == '__main__':
         total = val
 sys.stdout.write("{}\t{}\n".format(curkey, total))    
 
-cat /tmp/wordcount/input/credit.csv | python3 /tmp/wordcount/mapper.py | sort | python3 /tmp/reducer.py | head
+
                 
