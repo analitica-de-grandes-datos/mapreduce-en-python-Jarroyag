@@ -16,9 +16,7 @@ if __name__ == '__main__':
         else:
             if curkey is not None:
                 sys.stdout.write("{}\t{}\n".format(curkey, total))
-        urkey = key
+        curkey = key
         total = val
-sys.stdout.write("{}\t{}\n".format(curkey, total))    
-
-
+sys.stdout.write("{}\t{}\n".format(curkey, total))           
                 
