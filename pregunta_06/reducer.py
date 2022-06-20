@@ -20,6 +20,7 @@ if __name__ == '__main__':
              vmin = val  
         else:
             if curkey is not None:
+
               sys.stdout.write("{}\t{}\t{}\n".format(curkey, vmax, vmin))
             curkey = key
             vmax = val
