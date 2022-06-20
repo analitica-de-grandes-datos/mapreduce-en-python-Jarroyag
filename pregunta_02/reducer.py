@@ -15,9 +15,10 @@ if __name__ == '__main__':
       if val > max:
         max = val
 
-      else:
-         if curkey is not None:
-          sys.stdout.write("{}\t{}\n".format(curkey, max))
-         curkey = key
-         max = val
-  sys.stdout.write("{}\t{}\n".format(curkey, max)) 
+    else:
+      if curkey is not None:
+        sys.stdout.write("{}\t{}\n".format(curkey, max))
+      curkey = key
+      max = val
+
+    sys.stdout.write("{}\t{}\n".format(curkey, max)) 
