@@ -21,4 +21,4 @@ if __name__ == '__main__':
       curkey = key
       max = val
 
-    sys.stdout.write("{}\t{}\n".format(curkey, max)) 
+  sys.stdout.write("{}\t{}\n".format(curkey, max)) 
