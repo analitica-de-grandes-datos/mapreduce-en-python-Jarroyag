@@ -8,16 +8,16 @@ if __name__ == '__main__':
    total = 0
 
 for line in sys.stdin:
-   key, val = line.split(",")
-   val = int(val)
+  key, val = line.split(",")
+  val = int(val)
 
-if key == curkey:
+  if key == curkey:
     total += val
 
-else:
+  else:
     if curkey is not None:
      sys.stdout.write("{}\t{}\n".format(curkey, total))
     curkey = key
     total = val
     
-sys.stdout.write("{}\t{}\n".format(curkey, total))
+  sys.stdout.write("{}\t{}\n".format(curkey, total))
