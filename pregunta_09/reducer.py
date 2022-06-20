@@ -17,7 +17,7 @@ if __name__ == '__main__':
    limit=7
 
    for line in vector:
-     if c < limit:
+      if c < limit:
 
           sys.stdout.write("{}  {}  {}\n".format(line[0], line[1].strip(), line[2]))
           c = c + 1
