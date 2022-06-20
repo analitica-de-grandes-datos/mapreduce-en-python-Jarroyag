@@ -2,6 +2,7 @@
 # >>> Escriba el codigo del reducer a partir de este punto <<<
 #
 import sys
+
 if __name__ == '__main__':
 
     curkey = None
@@ -25,4 +26,4 @@ if __name__ == '__main__':
             nums = str(int(val))
             
 
-sys.stdout.write("{}\t{}\n".format(curkey, nums))
+    sys.stdout.write("{}\t{}\n".format(curkey, nums))
