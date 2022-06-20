@@ -19,5 +19,5 @@ if __name__ == '__main__':
    for line in vector:
       if c < limit:
 
-          sys.stdout.write("{}  {}  {}\n".format(line[0], line[1].strip(), line[2]))
+          sys.stdout.write("{} {} {}\n".format(line[0], line[1].strip(), line[2]))
           c = c + 1
